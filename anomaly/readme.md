@@ -1,6 +1,6 @@
 # Graph Data Mining
 
-This project 4 is to implement the alogrithm discussed in Paper 1, Efficient Identification of Overlapping Communities.
+This project 4 is to implement the alogrithm discussed in Paper 1, WebGraph Similarity for Anomaly Detection.
 
 ## Environment to test the script
 This project has been tested on `CSC591_ADBI_v3` VCL environment.
@@ -38,3 +38,21 @@ The output file will be in the format as below:
 ```
 Each line present the nodes with same community and, for example, the second community contains 6 nodes.
 
+
+# Description: The code uses the following Libraries.
+# numpy, pandas, igraph
+# Installation Instructions: 
+# Igraph : pip install python-igraph(Please refer to the official documentations for more platform specific details.)
+# The data folder must be present in the directory where this file resides.
+# The program generates the Time Series of the similarities between the graphs over time for one dataset at a time.
+# Saves the graph in the file called "<dataset_name>_time_series.pdf"
+# Saves the series in file called "<dataset_name>_time_series.txt"
+# Please run the code as python anomaly.py <dataset_folder> from the directory it resides.
+# Sample usage : python anomaly.py datasets/datasets/voices/
+# The parameter b for hashing is kept as 64 as a default. Can be increased for more accuracy at the cost of computing efficiency.
+
+# Estimated Running times:
+# voices : 0.47 seconds.
+# enron : 9.43 seconds.
+# p2p : 52 seconds.
+# autonomous : 648 seconds.
