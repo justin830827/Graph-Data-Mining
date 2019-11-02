@@ -1,6 +1,6 @@
 # Graph Data Mining
 
-This project 4 is to implement the alogrithm discussed in Paper 1, WebGraph Similarity for Anomaly Detection.
+This project is to implement the alogrithm discussed in Paper 1: WebGraph Similarity for Anomaly Detection.
 
 ## Environment to test the script
 
@@ -22,11 +22,11 @@ If the installtion failed from the command above, please download from website a
 After download the zip, first unzip the zip file and get into the folder.
 
 ```
-unzip whu24.zip
-cd GDM_Project2
+unzip anomaly.zip
+cd anomaly
 ```
 
-Once the path is under `GDM_Project2`, please run the command in following format.
+Once the path is under `anomaly`, please run the command in following format.
 
 ```
 python3 anomaly.py <path/to/file/file>
@@ -38,4 +38,4 @@ For example, if we would like to run the `voices` dataset, please run the comman
 python3 anomaly.py voices
 ```
 
-After the program complete, the final communiites will be store in `result/output.txt`, the program should run 3 mins to 10 mins depends on the graph size.
+After the program complete, the results will be saved on the current directory, the program should run within 1 min except `autonomous` dataset which requires 10 mins to 20 mins to complete.

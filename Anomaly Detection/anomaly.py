@@ -1,11 +1,7 @@
 import sys
-import time
-import math
-import copy
-import numpy as np
-import pandas as pd
-import networkx as nx
 import os
+import numpy as np
+import networkx as nx
 import matplotlib.pyplot as plt
 
 # Define the hashbits.
